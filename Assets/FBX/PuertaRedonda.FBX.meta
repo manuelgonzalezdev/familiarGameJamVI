@@ -79,6 +79,20 @@ ModelImporter:
     4300022: Object020
     4300024: Object022
     4300026: Object024
+    6400000: Object
+    6400002: Object004
+    6400004: Object006
+    6400006: Object008
+    6400008: Object010
+    6400010: Object012
+    6400012: Object014
+    6400014: Object016
+    6400016: Object018
+    6400018: Object020
+    6400020: Object022
+    6400022: Object024
+    6400024: Object026
+    6400026: Object028
   materials:
     importMaterials: 1
     materialName: 0
@@ -105,7 +119,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

@@ -7,6 +7,7 @@ public class Obstacle : MonoBehaviour {
 
 	void Awake()
     {
+        gameObject.layer = LayerMask.NameToLayer("Obstacle");
         rb = GetComponent<Rigidbody>();
         rb.isKinematic = true;
     }
