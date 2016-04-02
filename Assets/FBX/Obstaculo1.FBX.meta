@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 3b0d8749fdeb93d4eac5c8ecf4819eac
-timeCreated: 1459544022
+guid: 6ad825daa7ffb554c80836c1c896c938
+timeCreated: 1459587705
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -63,8 +63,8 @@ ModelImporter:
     100110: Object111
     100112: Object113
     100114: Object115
-    100116: ParedRota
-    100118: //RootNode
+    100116: //RootNode
+    100118: ParedRota
     400000: Object001
     400002: Object003
     400004: Object005
@@ -123,8 +123,8 @@ ModelImporter:
     400110: Object111
     400112: Object113
     400114: Object115
-    400116: ParedRota
-    400118: //RootNode
+    400116: //RootNode
+    400118: ParedRota
     2300000: Object001
     2300002: Object003
     2300004: Object005
