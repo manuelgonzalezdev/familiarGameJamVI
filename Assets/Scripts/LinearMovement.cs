@@ -17,8 +17,14 @@ public class LinearMovement : MonoBehaviour {
     {
         if (startOn)
         {
-            running = true;
+            StartCoroutine("WaitAndStart");
         }
+    }
+
+    IEnumerator WaitAndStart()
+    {
+        yield return new WaitForSeconds(autoStartDelay);
+        running = true;
     }
 
     public void Play()

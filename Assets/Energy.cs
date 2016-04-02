@@ -17,4 +17,10 @@ public class Energy : MonoBehaviour {
         energyText.text = energy.ToString();
     }
 
+    public void PlayerDamaged()
+    {
+        energy = Mathf.Max(energy - 10, 0);
+        energyText.text = energy.ToString();
+    }
+
 }

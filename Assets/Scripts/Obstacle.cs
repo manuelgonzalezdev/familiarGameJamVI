@@ -18,6 +18,7 @@ public class Obstacle : MonoBehaviour {
         {
             rb.isKinematic = false;
             transform.parent = null;
+            gameObject.layer = LayerMask.NameToLayer("ObstacleDestroyed");
             rb.AddForce(-col.impulse, ForceMode.Impulse);
         }
     }
