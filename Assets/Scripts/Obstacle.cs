@@ -16,6 +16,7 @@ public class Obstacle : MonoBehaviour {
         if (col.gameObject.layer == LayerMask.NameToLayer("Ball"))
         {
             rb.isKinematic = false;
+            transform.parent = null;
             rb.AddForce(-col.impulse, ForceMode.Impulse);
         }
     }

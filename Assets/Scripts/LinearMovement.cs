@@ -8,7 +8,7 @@ public class LinearMovement : MonoBehaviour {
     public Vector3 direction = Vector3.left;
     public bool pingPong = false;
     public bool startOn;
-    bool running;
+    public bool running;
 
     float distanceMoved;
 
