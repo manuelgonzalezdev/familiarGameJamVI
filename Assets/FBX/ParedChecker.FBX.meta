@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4428387f7b51b924e96a1b555624ac11
-timeCreated: 1459616674
+guid: 4613c6f5943fbd64ca5f19e555a559cf
+timeCreated: 1459620730
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: TunelCircular
+    4300000: ParedChecker
     6400000: //RootNode
   materials:
     importMaterials: 1

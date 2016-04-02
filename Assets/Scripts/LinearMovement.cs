@@ -9,6 +9,7 @@ public class LinearMovement : MonoBehaviour {
     public bool pingPong = false;
     public bool startOn;
     public bool running;
+    public float autoStartDelay = 0;
 
     float distanceMoved;
 
