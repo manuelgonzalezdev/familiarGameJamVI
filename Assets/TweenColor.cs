@@ -6,6 +6,15 @@ public class TweenColor : MonoBehaviour {
     public Renderer thisRenderer;
     public Color to = Color.clear;
     public float tweenDuration = 3;
+    public bool autoStart = false;
+
+    void Start()
+    {
+        if (autoStart)
+        {
+            Play();
+        }
+    }
 
 
     public void Play()
