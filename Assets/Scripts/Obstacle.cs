@@ -20,6 +20,13 @@ public class Obstacle : MonoBehaviour {
             transform.parent = null;
             gameObject.layer = LayerMask.NameToLayer("ObstacleDestroyed");
             rb.AddForce(-col.impulse, ForceMode.Impulse);
+            StartCoroutine("WaitAndDestroy");
         }
+    }
+
+    IEnumerator WaitAndDestroy()
+    {
+        yield return new WaitForSeconds(8f);
+        Destroy(gameObject);
     }
 }
