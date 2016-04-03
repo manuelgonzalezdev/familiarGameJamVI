@@ -4,6 +4,7 @@ using System.Collections;
 public class Disparo : MonoBehaviour {
 
     public Energy energyUI;
+    public AudioSource audioDisparo;
     public GameObject ballPrefab;
     public float pushForce = 5f;
 
@@ -19,6 +20,7 @@ public class Disparo : MonoBehaviour {
             Rigidbody rb = ball.GetComponent<Rigidbody>();
             rb.AddForce((p - transform.position) * pushForce, ForceMode.VelocityChange);
             energyUI.EnergyUsed();
+            audioDisparo.Play();
         }
     }
 
